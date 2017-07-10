@@ -13,7 +13,6 @@ public class UserInfo {
     private String userId;
     @Field("userName")
     private String userName;
-    private String mobile;
     @Field("passwordMd5")
     private String passwordMd5;
 
@@ -31,14 +30,6 @@ public class UserInfo {
 
     public void setUserName(String userName) {
         this.userName = userName;
-    }
-
-    public String getMobile() {
-        return mobile;
-    }
-
-    public void setMobile(String mobile) {
-        this.mobile = mobile;
     }
 
     public String getPasswordMd5() {
