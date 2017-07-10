@@ -1,9 +1,9 @@
 package com.weishengming.mongo.pageable;
 
+import java.io.Serializable;
+
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
-
-import java.io.Serializable;
 
 public class SpringDatePageable implements Pageable, Serializable {
 

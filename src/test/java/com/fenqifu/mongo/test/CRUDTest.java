@@ -5,6 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.mongodb.core.MongoTemplate;
@@ -19,7 +20,7 @@ import java.util.List;
  * @version $Id: CRUDTest.java, v 0.1 2016年5月18日 下午4:37:16 liujuntao Exp $
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-//@SpringApplicationConfiguration(AppConfigTest.class)
+@SpringApplicationConfiguration(AppConfigTest.class)
 public class CRUDTest {
 //    //主要两种方式，一种repository,一种template。写几个简单的例子。有很多种方式能实现crud
 //    @Autowired
